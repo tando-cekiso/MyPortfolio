@@ -17,3 +17,5 @@ In app.js :  import 'remixicon/fonts/remixicon.css'
              import "slick-carousel/slick/slick-theme.css";
              
              
+             To view the project please visit this link:      https://myportfolio-83yczfseh-tando-cekiso.vercel.app/
+             
