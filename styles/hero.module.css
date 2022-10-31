@@ -1,0 +1,88 @@
+.hero{
+    padding-top: 60px;
+}
+
+.hero__section h5{
+    color: rgb(2, 0, 21);
+    font-weight: 400;
+
+}
+
+.hero__section{
+    padding: 50px;
+}
+
+.hero__section p{
+    color: rgb(209, 209, 209);
+}
+.hero_img {
+    position: relative;
+    z-index: 9;
+}
+.hero_img img{
+    border-radius: 5px 5px 5px 5px;
+}
+
+.hero_myskills{
+    text-align: left;
+    width: 130px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    background: rgba(113, 146, 167, 0.299);
+    z-index: 10;
+
+}
+
+.hero_myskills h6{
+    background-color: transparent;
+    color: white;
+}
+
+.hero_myskills span i{
+    color: rgb(250, 250, 250);
+    background: transparent;
+}
+
+.hero_myskills span{
+    background: transparent;
+}
+
+.hero_experience{
+    width: 150px;
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+    padding: 10px 20px;
+    border-radius:5px;
+    background: rgba(52, 58, 121, 0.304);
+        z-index: 10;
+}
+
+.hero_experience span, .hero_experience h5, .hero_experience h6{
+    background: transparent;
+
+}
+
+.hero_experience h6{
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.hero_experience span i{
+    padding: 5px;
+    color: blue;
+    background: aqua;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 992px){
+    .hero__section h2{
+        font-size: 1.5rem ;
+    }
+    
+}

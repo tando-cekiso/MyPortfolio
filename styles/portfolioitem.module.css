@@ -1,0 +1,28 @@
+.portfolio_item{
+    background: rgba(171, 187, 209, 0.425);
+    padding: 0px 20px 20px 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.portfolio_item h6{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    background: transparent;
+
+}
+
+.portfolio_img{
+    margin-top: 30px;
+}
+
+
+
+.portfolio_keyword{
+    padding: 5px 10px;
+    color: white;
+    background: rgba(8, 77, 130, 0.888);
+    font-size: .8rem;
+    margin-right: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap0');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+ scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  background: rgb(0, 98, 159);
+}
+
+p{
+  color: rgb(199, 199, 199);
+  line-height: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: white;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+section{
+  padding-top: 150px;
+}
+
+footer{
+  padding-bottom: 10px;
+  padding-top: 60px;
+  border-top: 1px solid rgb(7, 66, 117);
+}
+
+.primary__btn{
+  background: rgb(19, 203, 160)important;
+  padding: 7px 20px !important;
+  border:1px solid rgb(236, 236, 236);
+
+}
+
+.primary__btn a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: transparent !important;
+}
+
+.secondary__btn{
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+}
+
+.secondary__btn a{
+  color: rgb(255, 255, 255);
+}
+
+.primary__btn a:hover, .secondary__btn a:hover{
+  color:unset;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: grey;
+
+}
+
+::-webkit-scrollbar-thumb{
+ 
+  background: rgb(1, 1, 47);
+}
+
